@@ -1,0 +1,253 @@
+================================================
+  TECHFEST CA PROGRAM — COPY BIBLE
+  notes.txt
+  
+  THIS IS YOUR CONTENT BIBLE.
+  Every word on the page comes from here.
+  Do not use Lorem Ipsum. Do not improvise.
+  If you want to change copy, change it here first.
+================================================
+
+
+------------------------------------------------
+VOICE GUIDE
+------------------------------------------------
+Tone:       Cold. Authoritative. Sparse.
+Voice:      A system talking to a recruit.
+            Not a salesperson. Not a friend.
+            A machine that expects compliance.
+
+Rules:
+- SHORT sentences. Most lines under 10 words.
+- ALL CAPS for system-level text (labels, HUD, task IDs).
+- Sentence case for human-facing paragraphs.
+- NEVER say "we are excited to announce"
+- NEVER say "join us on this amazing journey"
+- Use double dashes — not em dashes
+- Numbers always numeric: 175,000 not "one hundred seventy five thousand"
+- Use "::" as namespace separator in labels
+
+
+------------------------------------------------
+TYPOGRAPHY REFERENCE
+------------------------------------------------
+Bebas Neue     → hero title, giant section numbers
+Chakra Petch   → section labels, card titles, nav, buttons
+JetBrains Mono → body text, HUD text, everything else
+
+
+------------------------------------------------
+SECTION 01 — HERO / BOOT SEQUENCE
+------------------------------------------------
+
+[META BAR — top, HUD text, before headline]
+TECHFEST_CA :: SYSTEM_v29.0 :: INITIALIZING...
+
+[HUD — top-left corner overlay]
+SYS_STATUS: ONLINE
+NEURAL_LINK: ESTABLISHED
+
+[HUD — top-right corner overlay]
+CANDIDATES_SCANNED: 10,247
+SIGNAL_STRENGTH: ███████░ 94%
+
+[TYPING ANIMATION — cycles through these 3 lines]
+NEURAL_LINK: ESTABLISHING...
+CANDIDATE_PROFILE: LOADING...
+AUGMENTATION_READY: TRUE
+
+[MAIN HEADLINE — Bebas Neue, massive]
+AUGMENT
+
+[SUBHEADLINE — Chakra Petch, medium]
+YOU HAVE BEEN SELECTED FOR ENHANCEMENT
+THE COLLEGE AMBASSADOR PROGRAM — TECHFEST, IIT BOMBAY
+
+[BODY PARAGRAPH — JetBrains Mono]
+Asia's largest Science & Technology festival is recruiting.
+175,000+ humans connected. Your upgrade begins now.
+
+[CTA BUTTON — Chakra Petch, uppercase]
+[ INITIALIZE SEQUENCE → ]
+
+[HUD — bottom-left, tiny]
+IIT_BOMBAY :: TECHFEST :: CA_PROGRAM_2026
+SYSTEM.BUILD: v29.0.1 // ALL_SYSTEMS_NOMINAL
+
+
+------------------------------------------------
+SECTION 02 — BRIEFING / STATS
+------------------------------------------------
+
+[SECTION LABEL]
+PROTOCOL_02 :: SITUATION_BRIEF
+
+[STATS — 4 numbers, count-up on scroll]
+175,000+    HUMANS CONNECTED
+2,500+      COLLEGES INTEGRATED
+100+        EVENTS EXECUTED
+₹50L+       PRIZE POOL UNLOCKED
+
+[PARAGRAPH]
+Techfest, IIT Bombay. Three days. One campus.
+Asia's largest Science and Technology Festival.
+We don't run events. We engineer futures.
+
+NOTE: Use data-count="175000" data-suffix="+" on the number spans.
+      JS will animate from 0 to target when section enters viewport.
+
+
+------------------------------------------------
+SECTION 03 — AUGMENTATION BENEFITS / CARDS
+------------------------------------------------
+
+[SECTION LABEL]
+PROTOCOL_03 :: AUGMENTATION_SPECS
+
+[SECTION HEADLINE — Bebas Neue]
+YOUR UPGRADE PATH
+
+[CARD 01]
+Title (Chakra Petch): CREDENTIAL UPLOAD
+Number badge: 01
+Body: IIT Bombay internship offer letter +
+      certificate of recognition. Hard proof
+      you operate at this level.
+
+[CARD 02]
+Title: NETWORK EXPANSION
+Number badge: 02
+Body: 10,000+ CA network across India.
+      Industry contacts. Direct IIT Bombay
+      alumni access.
+
+[CARD 03]
+Title: SKILL PROTOCOLS
+Number badge: 03
+Body: Leadership. Communication. Strategy.
+      Real deliverables. Real experience.
+      Not just another line on a resume.
+
+[CARD 04]
+Title: SYSTEM RECOGNITION
+Number badge: 04
+Body: Top performers featured nationally.
+      Leaderboard. Cash rewards. Visibility
+      that outlasts the festival.
+
+
+------------------------------------------------
+SECTION 04 — MISSION FILES / TASKS
+------------------------------------------------
+
+[SECTION LABEL]
+PROTOCOL_04 :: MISSION_DOSSIER [CLASSIFIED]
+
+[SECTION HEADLINE — Bebas Neue]
+YOUR MISSION FILES
+
+[TASK CARD 01]
+ID badge:   TASK_001
+Title:      PROPAGATION
+Status:     STATUS: ACTIVE
+Body:       Drive registrations from your campus.
+            Deploy Techfest across your college
+            network. Target: maximum conversions.
+
+[TASK CARD 02]
+ID badge:   TASK_002
+Title:      SIGNAL_AMPLIFY
+Status:     STATUS: ACTIVE
+Body:       Execute social media outreach
+            protocols. Build awareness.
+            Maximize reach. Amplify the signal.
+
+[TASK CARD 03]
+ID badge:   TASK_003
+Title:      INTERFACE_DESIGN
+Status:     STATUS: [YOU ARE HERE]
+Body:       Design and develop the landing page
+            you are currently reading. Cyborg
+            theme. Responsive. Modern.
+NOTE:       Highlight this card differently —
+            this is your task. Make it magenta.
+
+[CLASSIFIED overlay text — shown before hover reveal]
+[CLASSIFIED — HOVER TO ACCESS]
+
+
+------------------------------------------------
+SECTION 05 — REWARD MATRIX
+------------------------------------------------
+
+[SECTION LABEL]
+PROTOCOL_05 :: REWARD_MATRIX
+
+[SECTION HEADLINE — Bebas Neue]
+YOUR UPGRADE REWARDS
+
+[TIER LIST — amber numbered badges]
+TIER_01  Internship offer letter — IIT Bombay
+TIER_02  Certificate of completion
+TIER_03  Cash prizes — top performers only
+TIER_04  Exclusive speaker session access
+TIER_05  Techfest merchandise + campus recognition
+
+[FOOTER NOTE — small, dim]
+Rewards scale with performance.
+Top 10 CAs receive additional incentives.
+
+
+------------------------------------------------
+SECTION 06 — INITIATION / CTA
+------------------------------------------------
+
+[LARGE TEXT — Bebas Neue, two lines]
+THE CHOICE IS BINARY.
+AUGMENT — OR REMAIN BASELINE.
+
+[PARAGRAPH]
+10,000+ agents have already initialized.
+Your campus needs a representative.
+That representative is you — or someone else.
+
+[CTA BUTTON — magenta, large]
+[ BEGIN AUGMENTATION → ]
+
+[FINE PRINT — HUD text, dim]
+Applications open · Techfest 2026 · IIT Bombay
+ca.techfest.org
+
+
+------------------------------------------------
+FOOTER
+------------------------------------------------
+
+[LEFT]
+TECHFEST
+IIT BOMBAY
+
+[CENTER]
+© 2026 Techfest, IIT Bombay. All rights reserved.
+
+[RIGHT]
+Icons: Instagram / LinkedIn / Twitter(X)
+Links: ca.techfest.org social handles
+
+[BOTTOM BAR — very small, dim]
+SYSTEM_STATUS: ALL_NOMINAL // TECHFEST_CA_v29 // BUILD_2026
+
+
+------------------------------------------------
+COPY RULES SUMMARY
+------------------------------------------------
+✅ Keep it cold and sparse
+✅ System language for labels (PROTOCOL_XX, TASK_XXX)
+✅ Human language for body paragraphs (sentence case)
+✅ Numbers always numeric
+✅ "::" as namespace separator
+✅ All caps for IDs, statuses, HUD text
+❌ No exclamation marks
+❌ No "amazing", "exciting", "incredible"
+❌ No Lorem Ipsum anywhere, ever
+❌ No passive voice ("you will be given" → "you get")
