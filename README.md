@@ -6,7 +6,8 @@ A responsive cyberpunk-themed landing page built as part of the Techfest 2026 Co
 ---
 
 ## Live Preview
-[GitHub Repository](https://github.com/Excalibur677/Bombay-Techfest)
+· [Live Demo](https://excalibur677.github.io/Bombay-Techfest/) 
+· [GitHub Repository](https://github.com/Excalibur677/Bombay-Techfest)
 
 ---
 
