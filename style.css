@@ -105,7 +105,8 @@ img { display: block; max-width: 100%; }
 .btn--cta:hover {
   background: var(--magenta);
   color: #fff;
-  box-shadow: var(--glow-magenta);
+  box-shadow: var(--glow-magenta), 0 0 40px rgba(255,0,85,0.3);
+  transform: translateY(-2px);
 }
 
 [data-animate] { opacity: 0; transform: translateY(28px); transition: opacity 0.7s var(--ease), transform 0.7s var(--ease); }
@@ -536,12 +537,17 @@ img { display: block; max-width: 100%; }
   border-color: rgba(0,240,255,0.5);
   box-shadow: var(--glow-cyan);
 }
-.card:hover::after {
+.card::after {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--cyan), transparent);
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  transform: scaleX(0);
+  transition: transform 0.4s var(--ease);
+}
+.card:hover::after {
+  transform: scaleX(1);
 }
 
 .card__num {
@@ -664,7 +670,11 @@ img { display: block; max-width: 100%; }
 
 .reward-item:first-child { border-top: 1px solid var(--border); }
 
-.reward-item:hover { border-bottom-color: var(--border-bright); }
+.reward-item:hover {
+  border-bottom-color: var(--cyan);
+  background: rgba(0,240,255,0.03);
+  padding-inline: 0.5rem;
+}
 
 .reward-item:hover .reward-item__tier { color: var(--cyan); }
 
