@@ -93,7 +93,8 @@ img { display: block; max-width: 100%; }
 .btn--primary:hover {
   background: var(--cyan);
   color: var(--bg);
-  box-shadow: var(--glow-cyan);
+  box-shadow: var(--glow-cyan), 0 0 40px rgba(0,240,255,0.3);
+  transform: translateY(-2px);
 }
 
 .btn--cta {
